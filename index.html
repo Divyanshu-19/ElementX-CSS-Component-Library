@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElementX</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div id="main-heading">
+        <h1>ElementX</h1>
+        <div id="links">
+            <a href="style.css" class="link">Go to CSS</a>
+        </div>
+    </div>
+    <div id="section">
+        <div id="index">
+            <ul class="list">
+                <li class="item"><a href="" class="link">Getting Started</a></li>
+                <li class="item"><a href="#alert" class="link">Alert</a></li>
+                <li class="item"><a href="#avatar" class="link">Avatar</a></li>
+                <li class="item"><a href="#badge" class="link">Badges</a></li>
+                <li class="item"><a href="#buttons" class="link">Buttons</a></li>
+                <li class="item"><a href="#card" class="link">Cards</a></li>
+                <li class="item"><a href="#input" class="link">Input</a></li>
+                <li class="item"><a href="#list" class="link">List</a></li>
+                <li class="item"><a href="#modal-component" class="link">Modal</a></li>
+                <li class="item"><a href="#navigation" class="link">Navigation</a></li>
+                <li class="item"><a href="#responsive-images" class="link">Responsive Images</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div style="height: 25px;"></div>
+            <h2 id="getting-started">Getting Started</h2>
+            <p>
+                All you need to get started is copy the link in your HTML file and copy script at the end of the body. For now script contains only Modal element which is written in vallina javaScript
+            </p>
+            <div style="height: 25px;"></div>
+            <div style="text-align: center;">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520href%253D%2522https%253A%252F%252Felementx-library.netlify.app%252Fstyle.css%2522%250A%2520%2520%2520%2520%2520%2520rel%253D%2522stylesheet%2522%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Felementx-library.netlify.app%252Fmain.js%2522%253E%253C%252Fscript%253E"
+                    style="width: 611px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div style="height: 25px;"></div>
+            <h2 id="alert">Alert</h2>
+            <p>
+                An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.
+            </p>
+            <div class="alert error">
+                This is an error alert — check it out!
+            </div>
+
+            <div class="alert warning">This is an warning alert — check it out!
+            </div>
+
+            <div class="alert info">This is an info alert — check it out!
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520error%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2509This%2520is%2520an%2520warning%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%250A%2509This%2520is%2520an%2520info%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E"
+                style="width: 1024px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <h2 id="avatar">Avatar</h2>
+            <p>
+                Avatar component is typically used to display circular user profile pictures. This component will allow you to dynamically size. You can use sm md lg elg to change the size of the avatar.
+            </p>
+            <div class="avatar sm">
+                <img src="./resources/jokerman.jpeg" alt="">
+            </div>
+            <div class="avatar md">
+                <img src="./resources/jokerman.jpeg" alt="">
+            </div>
+            <div class="avatar lg">
+                <img src="./resources/jokerman.jpeg" alt="">
+            </div>
+            <div class="avatar elg">
+                <img src="./resources/jokerman.jpeg" alt="">
+            </div>
+            <div style="height: 25px;"></div>
+
+            <div style="text-align: center;">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520sm%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fjokerman.jpeg%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520md%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fjokerman.jpeg%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520lg%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fjokerman.jpeg%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520elg%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fjokerman.jpeg%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 442px; height: 295px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <div style="height: 25px;"></div>
+            <p>This is a avatar with a name and a designation. We can increase the size of the avatar with the help of class sm, md, lg</p>
+            <div class="avatar sm">
+                <img src="./resources/jokerman.jpeg" alt="">
+                <div class="value">
+                    <div class="name">Mr. William Sung</div>
+                    <div class="designation">CEO</div>
+                </div>                
+            </div>
+            <div class="avatar md">
+                <img src="./resources/jokerman.jpeg" alt="">
+                <div class="value">
+                    <div class="name">Mr. William Sung</div>
+                    <div class="designation">CEO</div>
+                </div>                
+            </div>
+            <div class="avatar lg">
+                <img src="./resources/jokerman.jpeg" alt="">
+                <div class="value">
+                    <div class="name">Mr. William Sung</div>
+                    <div class="designation">
+                        some information about the person <br>
+                        more information about the person
+                    </div>
+                </div>                
+            </div>
+            <div style="height: 25px;"></div>
+            <div style="text-align: center;">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520sm%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fjokerman.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name%2522%253EMr.%2520William%2520Sung%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522designation%2522%253ECEO%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520md%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fjokerman.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name%2522%253EMr.%2520William%2520Sung%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522designation%2522%253ECEO%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520lg%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fjokerman.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name%2522%253EMr.%2520William%2520Sung%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522designation%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520some%2520information%2520about%2520the%2520person%2520%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520more%2520information%2520about%2520the%2520person%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                    style="width: 460px; height: 516px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2 id="badge">Badge</h2>
+            <p>
+                Avatar component is typically used to display circular user profile pictures. This component will allow you to dynamically size. You can use sm md lg elg to change the size of the avatar.
+            </p>
+            <div style="height: 25px;"></div>
+            <span class="badge">
+                <i class="material-icons">shopping_cart</i>
+                <span>3</span>
+            </span>
+            <span style="margin-right: 50px;"></span>
+            <span class="badge">
+                <i class="material-icons">favorite_border</i>
+                <span>10</span>
+            </span>
+            <span style="margin-right: 50px;"></span>
+            <span class="badge">
+                <i class="material-icons md-48">shopping_cart</i>
+                <span>3</span>
+            </span>
+            <span style="margin-right: 50px;"></span>
+            <span class="badge">
+                <i class="material-icons md-48">favorite_border</i>
+                <span>10</span>
+            </span>
+            <div style="height: 25px;"></div>
+            <div style="text-align: center;">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cspan%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Eshopping_cart%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253E3%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2522%253Efavorite_border%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253E10%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520md-48%2522%253Eshopping_cart%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253E3%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%250A%253Cspan%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520md-48%2522%253Efavorite_border%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253E10%253C%252Fspan%253E%250A%253C%252Fspan%253E"
+                style="width: 614px; height: 536px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div style="font-size: 1.2em; font-weight: 600;">Badges for avatar</div>
+
+            <p>You can add badges for the avatar created. They are availaible in three different colors: Red, Yellow, Blue. You can use them by adding class bg-red, bg-blue, bg-yellow respectively along with the avatar-badge class.</p>
+
+            <div style="height: 25px;"></div>
+
+            <div class="avatar sm">
+                <img src="./resources/jokerman.jpeg" alt="">
+                <div class="value">
+                    <div class="name bold">Mr. William Sung</div>
+                    <div class="designation">CEO</div>
+                </div>
+                <div class="avatar-badge bg-red">Badge</div>
+            </div>
+
+            <span style="margin-right: 50px;"></span>
+        
+            <div class="avatar sm">
+                <img src="./resources/jokerman.jpeg" alt="">
+                <div class="value">
+                    <div class="name bold">Mr. William Sung</div>
+                    <div class="designation">CEO</div>
+                </div>
+                <div class="avatar-badge bg-yellow">Badge</div>
+            </div>
+            <span style="margin-right: 50px;"></span>
+            <div class="avatar sm">
+                <img src="./resources/jokerman.jpeg" alt="">
+                <div class="value">
+                    <div class="name bold">Mr. William Sung</div>
+                    <div class="designation">CEO</div>
+                </div>
+                <div class="avatar-badge bg-blue">Badge</div>
+            </div>
+            <div style="text-align: center;">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520sm%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fjokerman.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name%2520bold%2522%253EMr.%2520William%2520Sung%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522designation%2522%253ECEO%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520bg-red%2522%253EBadge%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar%2520sm%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fjokerman.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name%2520bold%2522%253EMr.%2520William%2520Sung%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522designation%2522%253ECEO%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520bg-yellow%2522%253EBadge%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar%2520sm%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fjokerman.jpeg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522value%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522name%2520bold%2522%253EMr.%2520William%2520Sung%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522designation%2522%253ECEO%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520bg-blue%2522%253EBadge%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 485px; height: 553px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <br>
+            <h2 id="buttons">Buttons</h2>
+            <p>
+                Buttons are often embedded in contained components like cards and dialogs, in order to relate themselves to the component in which they appear. In ElementX we have three types of buttons. Primary Button, Secondary Button and Error Button. You can use primary-btn, secondary-btn, error-btn classes to implement the CSS.
+            </p>
+            <div style="height: 25px;"></div>
+            <button class="btn primary-btn">Primary Button</button>
+            <span style="margin-right: 50px;"></span>
+            <button class="btn secondary-btn">Secondary Button</button>
+            <span style="margin-right: 50px;"></span>
+            <button class="btn error-btn">Error Button</button>
+            <div style="height: 25px;"></div>
+            <div style="text-align: center;">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2522%253ESecondary%2520Button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520error-btn%2522%253EError%2520Button%253C%252Fbutton%253E"
+                style="width: 647px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h2 id="card">Card</h2>
+            <p>
+                Card component is used to group various pieces of content into a container which can be used throughout your website. You can also use shadow class to give shadow to the card.
+            </p>
+            <div style="text-align: center;">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300" alt=""><div class="remove">X</div></img>
+                    <h2>Card Title</h2>
+                    <p>Here you can place the content of the card. The card description should ideally describe the image in the card. You can use submit button or remove it as per your convenience.</p>
+                    <a href="" class="btn primary-btn">Submit</a>
+                </div>
+                <span style="margin-right: 50px;"></span>
+                <div class="card shadow">
+                    <img src="https://via.placeholder.com/300" alt=""><div class="remove">X</div></img>
+                    <h2>Card Title</h2>
+                    <p>Here you can place the content of the card. The card description should ideally describe the image in the card. You can use submit button or remove it as per your convenience.</p>
+                    <a href="" class="btn primary-btn">Submit</a>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F300%2522%2520alt%253D%2522%2522%253E%253Cdiv%2520class%253D%2522remove%2522%253EX%253C%252Fdiv%253E%253C%252Fimg%253E%250A%2520%2520%2520%2520%253Ch2%253ECard%2520Title%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253EHere%2520you%2520can%2520place%2520the%2520content%2520of%2520the%2520card%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520primary-btn%2522%253ESubmit%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522card%2520shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F300%2522%2520alt%253D%2522%2522%253E%253Cdiv%2520class%253D%2522remove%2522%253EX%253C%252Fdiv%253E%253C%252Fimg%253E%250A%2520%2520%2520%2520%253Ch2%253ECard%2520Title%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%253EHere%2520you%2520can%2520place%2520the%2520content%2520of%2520the%2520card%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520primary-btn%2522%253ESubmit%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+                style="width: 1024px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <h2 id="input">Input</h2>
+            <p>
+                They are containers with styled input field.
+            </p>
+            <div style="height: 25px;"></div>
+            <label for="name">Name</label>
+            <input type="text" class="input">
+            <br>
+            <label for="name">Email</label>
+            <input type="text" class="input">
+            <div style="height: 25px;"></div>
+            <div style="text-align: center;">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%253E"
+                    style="width: 317px; height: 93px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div style="height: 25px;"></div>
+            <h2 id="list">List</h2>
+            <p>
+                They are containers with styled lists.
+            </p>
+            <ul class="list">
+                <li class="item">Item 1</li>
+                <li class="item">Item 2</li>
+                <li class="item">Item 3</li>
+                <li class="item">Item 4</li>
+            </ul>
+            <div style="height: 25px;"></div>
+            <div style="text-align: center;">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522item%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522item%2522%253EItem%25202%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253Cul%2520class%253D%2522list%2520dark%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522item%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522item%2522%253EItem%25202%253C%252Fli%253E%250A%253C%252Ful%253E"
+                    style="width: 420px; height: 352px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div style="height: 25px;"></div>
+            <p>
+                We can use dark class along with list class to make a dark list.
+            </p>
+            <ul class="list dark">
+                <li class="item">Item 1</li>
+                <li class="item">Item 2</li>
+                <li class="item">Item 3</li>
+                <li class="item">Item 4</li>
+            </ul>
+            <div style="height: 25px;"></div>
+            <h2 id="modal-component">Modal</h2>
+            <p>
+                The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else. Use the Modal component to add dialogs to your app for lightboxes, user notifications, or completely custom content.
+            </p>
+            <button class="btn primary-btn" id="show-modal">Show Modal</button>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                  <div id="remove-modal" class="remove">X</div>
+                  <div>
+                      <h2>Modal heading</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita est, atque corporis modi fugit minima quis officia quas! Provident sed dolore molestias deserunt error tempore quisquam magni soluta repudiandae!</p>
+                      <button class="btn primary-btn">Approve</button>
+                  </div>
+                </div>
+            </div>
+            <div style="height: 25px;"></div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522modal%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522remove-modal%2522%2520class%253D%2522remove%2522%253EX%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EModal%2520heading%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Sapiente%2520expedita%2520est%252C%2520atque%2520corporis%2520modi%2520fugit%2520minima%2520quis%2520officia%2520quas%21%2520Provident%2520sed%2520dolore%2520molestias%2520deserunt%2520error%2520tempore%2520quisquam%2520magni%2520soluta%2520repudiandae%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EApprove%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 1024px; height: 295px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <div style="height: 25px;"></div>
+            <h2 id="navigation">Navigation</h2>
+            <p>
+                The navigation element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+            </p>
+            <div style="height: 25px;"></div>
+            <div class="navigation strech">
+                <div class="left-section ">
+                    <img src="./resources/dice.webp" alt="">
+                    <div><h1>Titleee</h1></div>
+                </div>
+                <div class="right-section  ">
+                    <div>link1</div>
+                    <div>link2</div>
+                    <div>link3</div>
+                </div>
+            </div>
+            <div style="height: 25px;"></div>
+            <p>We can use class strech to strech the navigation to the end or omit it to keep it at 80% of the ratio of the width of the container. we can also use dark property to use dark navigation</p>
+            <div style="height: 25px;"></div>
+            <div class="navigation strech dark">
+                <div class="left-section ">
+                    <img src="./resources/dice.webp" alt="">
+                    <div><h1>Titleee</h1></div>
+                </div>
+                <div class="right-section  ">
+                    <div>link1</div>
+                    <div>link2</div>
+                    <div>link3</div>
+                </div>
+            </div>
+
+            <div style="height: 25px;"></div>
+            <div style="text-align: center;">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522navigation%2520strech%2520dark%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522left-section%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Fdice.webp%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ch1%253ETitleee%253C%252Fh1%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522right-section%2520%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253Elink1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253Elink2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253Elink3%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 443px; height: 277px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div style="height: 25px;"></div>
+            <h2 id="responsive-images">Responsive Images</h2>
+            <p>
+                The &lt;img&gt; element within the container has a width property of 100% so that its width is always equal to its container regardless of the viewport's size, thus making it responsive. The height is set to auto so that the image proportionally scales.
+            </p>
+            <div class="max-height-md responsive-img round-img">
+                <img src="./resources/rail.jpg" alt="">
+            </div>
+            <span style="margin-right: 30px;"></span>
+
+            <div class="max-height-lg responsive-img round-img">
+                <img src="./resources/rail.jpg" alt="">
+            </div>
+            <div style="height: 25px;"></div>
+            <div style="text-align: center;">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522max-height-md%2520responsive-img%2520round-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Frail.jpg%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522max-height-lg%2520responsive-img%2520round-img%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fresources%252Frail.jpg%2522%2520alt%253D%2522%2522%253E%250A%253C%252Fdiv%253E"
+                    style="width: 477px; height: 203px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
