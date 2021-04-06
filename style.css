@@ -273,6 +273,17 @@
     font-size: 0.6rem;
 }
 
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-36+span {
+    bottom: 20px;
+    right: 1px;
+    font-size: 0.6rem;
+}
+
 .material-icons.md-30+span {
     bottom: 20px;
     right: -4px;
@@ -280,10 +291,6 @@
     font-weight: 800;
 }
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
 
 .btn{
     cursor: pointer;
