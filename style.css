@@ -61,11 +61,20 @@
     box-sizing: border-box;
 }
 
+.link {
+    text-decoration: none;
+    color: black;
+    /* padding: 0.5em 0.5em; */
+    display: block;
+    
+}
+
 .list{
     list-style-type: none;
     border: none;
     border-bottom: none;
     padding: 0px 0px;
+    
 }
 
 .list.dark{
@@ -294,23 +303,19 @@
 
 .btn{
     cursor: pointer;
-    border-radius: 8px;
     padding: 0.5em 0.7em;
     font-size: 0.9em;
     color: whitesmoke;
     transition: transform 0.05s;
 }
 
+.btn.round{
+    border-radius: 8px;
+}
+
 .btn:hover{
     transform: scale(1.05);
 }
-
-.link{
-    text-decoration: none;
-    color: black;
-    padding: 0.5em 0.5em;
-}
-
 
 .primary-btn{
     background-color: var(--ele-x-darkblue);
