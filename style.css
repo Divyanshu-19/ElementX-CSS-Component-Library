@@ -407,51 +407,67 @@
     border-left: none;
 }
 
-.navigation{
+.navigation {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: auto;
-    padding: 0.5em 1em;
+    padding: 0.5rem 0.5rem;
     background-color: var(--ele-x-lightblue);
-    
+    box-sizing: border-box;
 }
 
-.navigation.dark{
+.navigation.dark {
     background-color: var(--ele-x-darkestblue);
     color: var(--ele-x-lightblue);
 }
 
-.navigation.dark .left-section div:hover, .navigation.dark .right-section div:hover{
+.dark .navigation__left-section div:hover,
+.dark .navigation__right-section div:hover {
     background-color: var(--ele-x-darkblue);
 }
 
-.navigation.strech{
+.navigation.strech {
     width: 100%;
 }
 
-.navigation .left-section,.right-section{
+.navigation__left-section,
+.navigation__right-section {
     display: flex;
 }
 
-.left-section img{
+.navigation__left-section img {
     max-width: 100px;
 }
 
-.left-section div, .right-section div{
+.navigation__left-section div,
+.navigation__right-section div {
     align-self: center;
-    padding: 1em 2em;
-    margin: 0 0.5em;
+    margin: 0 0.5rem;
     cursor: pointer;
     border-radius: 10px;
 }
 
-.left-section div:hover, .right-section div:hover{
+.navigation__left-section div {
+    padding: 1rem 0.5rem;
+}
+
+.navigation__right-section div {
+    padding: 1rem 2rem;
+}
+
+.navigation__left-section div:hover,
+.navigation__right-section div:hover {
     background-color: lightblue;
 }
 
-.right-section div:last-child{
-    margin-right: 2em;
+.navigation__right-section div:last-child {
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+    .navigation__right-section div {
+        padding: 1rem 0.5rem;
+    }
 }
 
 .modal{
