@@ -305,8 +305,17 @@
     cursor: pointer;
     padding: 0.5em 0.7em;
     font-size: 0.9em;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
+    /* transition: transform 0.05s; */
+}
+
+.btn-transition{
     transition: transform 0.05s;
+}
+
+.btn-transition:hover{
+    transform: scale(1.05);
 }
 
 .btn.round{
@@ -314,11 +323,13 @@
 }
 
 .btn:hover{
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
+    background-color: rgb(241, 238, 238);
 }
 
 .primary-btn{
     background-color: var(--ele-x-darkblue);
+    color: whitesmoke;
 }
 
 .primary-btn:hover{
@@ -339,6 +350,7 @@
 
 .error-btn{
     background-color: var(--ele-x-darkred);
+    color: whitesmoke;
 }
 
 .error-btn:hover{
