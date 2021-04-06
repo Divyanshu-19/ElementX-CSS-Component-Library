@@ -275,8 +275,8 @@
 
 .material-icons.md-30+span {
     bottom: 20px;
-    /* right: -4px; */
-    font-size: 0.7rem;
+    right: -4px;
+    font-size: 0.8rem;
     font-weight: 800;
 }
 
